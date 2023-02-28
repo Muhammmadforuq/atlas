@@ -762,6 +762,9 @@ video {
   margin-right: calc(2rem * var(--tw-space-x-reverse));
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
+.overflow-y-auto {
+  overflow-y: auto;
+}
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -900,6 +903,9 @@ video {
 }
 .p-3 {
   padding: 0.75rem;
+}
+.p-6 {
+  padding: 1.5rem;
 }
 .px-4 {
   padding-left: 1rem;
@@ -1186,6 +1192,10 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .md\:p-7 {
+    padding: 1.75rem;
   }
 
   .md\:py-2\.5 {
