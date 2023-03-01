@@ -9,8 +9,8 @@
     <title>Infrastructure | Dashboard</title>
 </head>
 <body class="rounded-2xl"> 
-     <header class="fixed left-0 top-0 w-full text-right border-b bg-white px-6 md:px-8 py-4 z-10">
-								<div class="flex justify-end items-center gap-4 lg:gap-1"> 
+     <header class="fixed left-0 top-0 w-full text-right border-b bg-white px-5 md:px-8 py-4 z-10">
+								<div class="flex justify-end items-center gap-1.5 lg:gap-1"> 
 											<!-- Search  -->
 											<button class="search-btn">
 															<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -156,93 +156,144 @@
 										</div>
 							</aside>
 							<!-- Infrastructure -->
-							<div class="w-full lg:ml-80 px-6 lg:px-8 pb-60 pt-10 bg-[#f6f8fb]">
+							<div class="w-full lg:ml-80 px-5 lg:px-8 pb-60 pt-10 bg-[#f6f8fb]">
 										<div>
-							<h3 class="font-semibold text-2xl text-brand-gray-700 pb-5">Infrastructure</h3>
-							<div class="grid xl:grid-cols-2 2xl:grid-cols-4 gap-6 mb-10">
-									<!-- Item 1 -->
-									<div class="bg-white rounded-lg p-5 space-y-4 border-b-4 shadow-base border-[#24184C]">
-											<div class="w-12 h-12 p-3 bg-[#24184C]/20 rounded-lg">
-													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<rect x="1.44" y="1.44" width="21.12" height="21.12" fill="white" stroke="#24184C" stroke-width="2.88"/>
-															<path d="M14.9332 6.40002H6.3999V17.6H14.9332" stroke="#767876" stroke-width="3.2"/>
-															<path d="M17.6001 9.06665V19.2" stroke="#24184C" stroke-width="3.2"/>
-															<path d="M17.6001 4.80005V8.00005" stroke="#24184C" stroke-width="3.2"/>
-															</svg>                        
-											</div>
-											<div>
-													<h3 class="font-semibold pb-1">Deploy Service</h3>
-													<p class="text-sm text-brand-gray-500">Deploy a new container based service</p>
-											</div>
-											<a href="#" class="group inline-flex items-center py-2 px-3.5 border border-brand-gray-300 gap-2 rounded-lg">
-													<span class="font-semibold text-sm text-brand-gray-700">Create</span>
-													<svg class=" group-hover:translate-x-1.5 transition ease-linear " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M3.3335 10H16.6668M16.6668 10L11.6668 5M16.6668 10L11.6668 15" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-													</svg>
-															
-											</a>
-									</div>
-									<!-- Item 2 -->
-									<div class="bg-white rounded-lg p-5 space-y-4 border-b-4 shadow-base border-brand-skyBlue-100">
-											<div class="w-12 h-12 p-3 bg-brand-skyBlue-100/20 rounded-lg">
-													<img src="./assets/image/Infrastructure-2.svg" alt="">                       
-											</div>
-											<div>
-													<h3 class="font-semibold pb-1">Postgrese</h3>
-													<p class="text-sm text-brand-gray-500">Deploy a Postgres data base</p>
-											</div>
-											<a href="#" class="group inline-flex items-center py-2 px-3.5 border border-brand-gray-300 gap-2 rounded-lg">
-													<span class="font-semibold text-sm text-brand-gray-700">Create</span>
-													<svg class=" group-hover:translate-x-1.5 transition ease-linear " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M3.3335 10H16.6668M16.6668 10L11.6668 5M16.6668 10L11.6668 15" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-													</svg>
-															
-											</a>
-									</div>
-									<!-- Item 3 -->
-									<div class="bg-white rounded-lg p-5 space-y-4 border-b-4 shadow-base border-brand-skyBlue-100">
-											<div class="w-12 h-12 p-3 bg-brand-skyBlue-100/20 rounded-lg">
-													<img src="./assets/image/Infrastructure-3.svg" alt="">                       
-											</div>
-											<div>
-													<h3 class="font-semibold pb-1">Kubernetes</h3>
-													<p class="text-sm text-brand-gray-500">Deploy a kubernetes cluster on AWS EKS</p>
-											</div>
-											<a href="#" class="group inline-flex items-center py-2 px-3.5 border border-brand-gray-300 gap-2 rounded-lg">
-													<span class="font-semibold text-sm text-brand-gray-700">Create</span>
-													<svg class=" group-hover:translate-x-1.5 transition ease-linear " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M3.3335 10H16.6668M16.6668 10L11.6668 5M16.6668 10L11.6668 15" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-													</svg>
-															
-											</a>
-									</div>
-									<!-- Item 4 -->
-									<div class="bg-white rounded-lg p-5 space-y-4 border-b-4 shadow-base border-[#F04438]">
-											<div class="w-12 h-12 p-3 bg-[#D82C20]/20 rounded-lg">
-													<img src="./assets/image/Infrastructure-4.svg" alt="">                       
-											</div>
-											<div>
-													<h3 class="font-semibold pb-1">Kubernetes</h3>
-													<p class="text-sm text-brand-gray-500">Deploy a kubernetes cluster on AWS EKS</p>
-											</div>
-											<a href="#" class="group inline-flex items-center py-2 px-3.5 border border-brand-gray-300 gap-2 rounded-lg">
-													<span class="font-semibold text-sm text-brand-gray-700">Create</span>
-													<svg class=" group-hover:translate-x-1.5 transition ease-linear " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M3.3335 10H16.6668M16.6668 10L11.6668 5M16.6668 10L11.6668 15" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-													</svg>
-															
-											</a>
-									</div>
-							</div>
-						</div>
-									<div>
-						<h3 class="font-semibold text-2xl text-brand-gray-700 pb-5">Environment Templates</h3>
-										<div class="grid xl:grid-cols-2 2xl:grid-cols-3 gap-6 mb-10 justify-center">
+												<h3 class="font-semibold text-2xl text-brand-gray-700 mb-5">Infrastructure</h3>
+												<div class="grid xl:grid-cols-2 2xl:grid-cols-4 gap-6 mb-10">
 														<!-- Item 1 -->
-														<div class="bg-white rounded-lg">
-																		<div class="p-5 border-b border-brand-gray-200">
+														<div class="bg-white rounded-lg p-5 space-y-4 border-b-4 shadow-base border-[#24184C]">
+																<div class="w-12 h-12 p-3 bg-[#24184C]/20 rounded-lg">
+																		<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<rect x="1.44" y="1.44" width="21.12" height="21.12" fill="white" stroke="#24184C" stroke-width="2.88"/>
+																				<path d="M14.9332 6.40002H6.3999V17.6H14.9332" stroke="#767876" stroke-width="3.2"/>
+																				<path d="M17.6001 9.06665V19.2" stroke="#24184C" stroke-width="3.2"/>
+																				<path d="M17.6001 4.80005V8.00005" stroke="#24184C" stroke-width="3.2"/>
+																				</svg>                        
+																</div>
+																<div>
+																		<h3 class="font-semibold pb-1">Deploy Service</h3>
+																		<p class="text-sm text-brand-gray-500">Deploy a new container based service</p>
+																</div>
+																<a href="#" class="group inline-flex items-center py-2 px-3.5 border border-brand-gray-300 gap-2 rounded-lg">
+																		<span class="font-semibold text-sm text-brand-gray-700">Create</span>
+																		<svg class=" group-hover:translate-x-1.5 transition ease-linear " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<path d="M3.3335 10H16.6668M16.6668 10L11.6668 5M16.6668 10L11.6668 15" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+																		</svg>
+																				
+																</a>
+														</div>
+														<!-- Item 2 -->
+														<div class="bg-white rounded-lg p-5 space-y-4 border-b-4 shadow-base border-brand-skyBlue-100">
+																<div class="w-12 h-12 p-3 bg-brand-skyBlue-100/20 rounded-lg">
+																		<img src="./assets/image/Infrastructure-2.svg" alt="">                       
+																</div>
+																<div>
+																		<h3 class="font-semibold pb-1">Postgrese</h3>
+																		<p class="text-sm text-brand-gray-500">Deploy a Postgres data base</p>
+																</div>
+																<a href="#" class="group inline-flex items-center py-2 px-3.5 border border-brand-gray-300 gap-2 rounded-lg">
+																		<span class="font-semibold text-sm text-brand-gray-700">Create</span>
+																		<svg class=" group-hover:translate-x-1.5 transition ease-linear " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<path d="M3.3335 10H16.6668M16.6668 10L11.6668 5M16.6668 10L11.6668 15" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+																		</svg>
+																				
+																</a>
+														</div>
+														<!-- Item 3 -->
+														<div class="bg-white rounded-lg p-5 space-y-4 border-b-4 shadow-base border-brand-skyBlue-100">
+																<div class="w-12 h-12 p-3 bg-brand-skyBlue-100/20 rounded-lg">
+																		<img src="./assets/image/Infrastructure-3.svg" alt="">                       
+																</div>
+																<div>
+																		<h3 class="font-semibold pb-1">Kubernetes</h3>
+																		<p class="text-sm text-brand-gray-500">Deploy a kubernetes cluster on AWS EKS</p>
+																</div>
+																<a href="#" class="group inline-flex items-center py-2 px-3.5 border border-brand-gray-300 gap-2 rounded-lg">
+																		<span class="font-semibold text-sm text-brand-gray-700">Create</span>
+																		<svg class=" group-hover:translate-x-1.5 transition ease-linear " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<path d="M3.3335 10H16.6668M16.6668 10L11.6668 5M16.6668 10L11.6668 15" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+																		</svg>
+																				
+																</a>
+														</div>
+														<!-- Item 4 -->
+														<div class="bg-white rounded-lg p-5 space-y-4 border-b-4 shadow-base border-[#F04438]">
+																<div class="w-12 h-12 p-3 bg-[#D82C20]/20 rounded-lg">
+																		<img src="./assets/image/Infrastructure-4.svg" alt="">                       
+																</div>
+																<div>
+																		<h3 class="font-semibold pb-1">Kubernetes</h3>
+																		<p class="text-sm text-brand-gray-500">Deploy a kubernetes cluster on AWS EKS</p>
+																</div>
+																<a href="#" class="group inline-flex items-center py-2 px-3.5 border border-brand-gray-300 gap-2 rounded-lg">
+																		<span class="font-semibold text-sm text-brand-gray-700">Create</span>
+																		<svg class=" group-hover:translate-x-1.5 transition ease-linear " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<path d="M3.3335 10H16.6668M16.6668 10L11.6668 5M16.6668 10L11.6668 15" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+																		</svg>
+																				
+																</a>
+														</div>
+												</div>
+									</div>
+								
+										<div>
+											<h3 class="font-semibold text-2xl text-brand-gray-700 mb-5">Environment Templates</h3>
+											<div class="grid xl:grid-cols-2 2xl:grid-cols-3 gap-6 mb-10 justify-center">
+															<!-- Item 1 -->
+															<div class="bg-white rounded-lg">
+																			<div class="p-5 border-b border-brand-gray-200">
+												<div class="flex items-center justify-between pb-2.5">
+													<h3 class="font-semibold text-brand-gray-700">Go Service with Postgres RDS</h3>
+													<button>
+														<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M9.99984 10.8333C10.4601 10.8333 10.8332 10.4602 10.8332 9.99998C10.8332 9.53974 10.4601 9.16665 9.99984 9.16665C9.5396 9.16665 9.1665 9.53974 9.1665 9.99998C9.1665 10.4602 9.5396 10.8333 9.99984 10.8333Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+															<path d="M9.99984 4.99998C10.4601 4.99998 10.8332 4.62688 10.8332 4.16665C10.8332 3.70641 10.4601 3.33331 9.99984 3.33331C9.5396 3.33331 9.1665 3.70641 9.1665 4.16665C9.1665 4.62688 9.5396 4.99998 9.99984 4.99998Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+															<path d="M9.99984 16.6666C10.4601 16.6666 10.8332 16.2935 10.8332 15.8333C10.8332 15.3731 10.4601 15 9.99984 15C9.5396 15 9.1665 15.3731 9.1665 15.8333C9.1665 16.2935 9.5396 16.6666 9.99984 16.6666Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+															</svg>
+															
+													</button>
+												</div>
+													<p class="text-sm text-brand-gray-500">
+																	Go Service pipeline, ECS deployment, and Postgres RDS database, pre-configured with XYZ best practices.
+												</p>
+											</div>
+											<div class="p-5">
+												<div class="font-medium border-b border-brand-gray-200 pb-4 mb-4 space-y-3">
+													<div class="flex justify-between items-center">
+															<h3 class="text-brand-gray-500">Maintainer </h3>
+															<p class="text-brand-gray-900">ML Team</p>
+													</div>
+													<div class="flex justify-between items-center">
+														<h3 class="text-brand-gray-500">Default Dev Cost</h3>
+														<p class="space-x-2">
+															<span class="text-brand-gray-900">$15</span>
+															<span class="text-brand-gray-500">/</span>	
+															<span class="text-brand-gray-500">mo</span>
+														</p>
+														</div>
+													<div class="flex justify-between items-center">
+													<h3 class=" text-brand-gray-500">Default Dev Cost</h3>
+													<p class="inline-block space-x-2">
+														<span class="text-brand-gray-900">$175</span>
+														<span class="text-brand-gray-500">/</span>	
+														<span class="text-brand-gray-500">mo</span>
+													</p>
+														</div>
+												</div>
+												<a href="#" class="group inline-flex items-center py-2 px-3.5 border border-brand-gray-300 gap-2 rounded-lg">
+																							<span class="font-semibold text-sm text-brand-gray-700">Create</span>
+																							<svg class=" group-hover:translate-x-1.5 transition ease-linear " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																											<path d="M3.3335 10H16.6668M16.6668 10L11.6668 5M16.6668 10L11.6668 15" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+																							</svg>
+																											
+																				</a>
+											</div>
+															</div>
+									<!-- Item 2 -->
+															<div class="bg-white rounded-lg">
+										<div class="p-5 border-b border-brand-gray-200">
 											<div class="flex items-center justify-between pb-2.5">
-												<h3 class="font-semibold text-brand-gray-700">Go Service with Postgres RDS</h3>
+												<h3 class="font-semibold text-brand-gray-700">ML Kubeflow & default connection</h3>
 												<button>
 													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<path d="M9.99984 10.8333C10.4601 10.8333 10.8332 10.4602 10.8332 9.99998C10.8332 9.53974 10.4601 9.16665 9.99984 9.16665C9.5396 9.16665 9.1665 9.53974 9.1665 9.99998C9.1665 10.4602 9.5396 10.8333 9.99984 10.8333Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
@@ -252,15 +303,65 @@
 														
 												</button>
 											</div>
-												<p class="text-brand-gray-500">
-																Go Service pipeline, ECS deployment, and Postgres RDS database, pre-configured with XYZ best practices.
+												<p class="text-sm text-brand-gray-500">
+													Setup Kubeflow preconfigured with access to default data resources (Redshift & Yellow S3 Datasets). 
+											</p>
+										</div>
+										<div class="p-5">
+											<div class="font-medium border-b border-brand-gray-200 pb-4 mb-4 space-y-3">
+												<div class="flex justify-between items-center">
+														<h3 class=" text-brand-gray-500">Maintainer </h3>
+														<p class="text-brand-gray-900">Platform Application Team</p>
+												</div>
+												<div class="flex justify-between items-center">
+													<h3 class="text-brand-gray-500">Default Dev Cost</h3>
+													<p class="space-x-2">
+														<span class="text-brand-gray-900">$15</span>
+														<span class="text-brand-gray-500">/</span>	
+														<span class="text-brand-gray-500">mo</span>
+													</p>
+													</div>
+												<div class="flex justify-between items-center">
+												<h3 class="text-brand-gray-500">Default Dev Cost</h3>
+												<p class="space-x-2">
+													<span class="text-brand-gray-900">$175</span>
+													<span class="text-brand-gray-500">/</span>	
+													<span class="text-brand-gray-500">mo</span>
+												</p>
+													</div>
+											</div>
+											<a href="#" class="group inline-flex items-center py-2 px-3.5 border border-brand-gray-300 gap-2 rounded-lg">
+												<span class="font-semibold text-sm text-brand-gray-700">Create</span>
+												<svg class=" group-hover:translate-x-1.5 transition ease-linear " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M3.3335 10H16.6668M16.6668 10L11.6668 5M16.6668 10L11.6668 15" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+														
+											</a>
+										</div>
+										</div>
+									<!-- Item 3 -->
+															<div class="bg-white rounded-lg">
+										<div class="p-5 border-b border-brand-gray-200">
+											<div class="flex items-center justify-between pb-2.5">
+												<h3 class="font-semibold text-brand-gray-700">Node.js service with Redis</h3>
+												<button>
+													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M9.99984 10.8333C10.4601 10.8333 10.8332 10.4602 10.8332 9.99998C10.8332 9.53974 10.4601 9.16665 9.99984 9.16665C9.5396 9.16665 9.1665 9.53974 9.1665 9.99998C9.1665 10.4602 9.5396 10.8333 9.99984 10.8333Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+														<path d="M9.99984 4.99998C10.4601 4.99998 10.8332 4.62688 10.8332 4.16665C10.8332 3.70641 10.4601 3.33331 9.99984 3.33331C9.5396 3.33331 9.1665 3.70641 9.1665 4.16665C9.1665 4.62688 9.5396 4.99998 9.99984 4.99998Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+														<path d="M9.99984 16.6666C10.4601 16.6666 10.8332 16.2935 10.8332 15.8333C10.8332 15.3731 10.4601 15 9.99984 15C9.5396 15 9.1665 15.3731 9.1665 15.8333C9.1665 16.2935 9.5396 16.6666 9.99984 16.6666Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+														</svg>
+														
+												</button>
+											</div>
+												<p class="text-sm text-brand-gray-500">
+													Net.js service pipeline, ECS deployment, and Redis database, pre-configured with XYZ company best practices. 
 											</p>
 										</div>
 										<div class="p-5">
 											<div class="font-medium border-b border-brand-gray-200 pb-4 mb-4 space-y-3">
 												<div class="flex justify-between items-center">
 														<h3 class="text-brand-gray-500">Maintainer </h3>
-														<p class="text-brand-gray-900">ML Team</p>
+														<p class="text-brand-gray-900">3rd party integration team</p>
 												</div>
 												<div class="flex justify-between items-center">
 													<h3 class="text-brand-gray-500">Default Dev Cost</h3>
@@ -272,7 +373,7 @@
 													</div>
 												<div class="flex justify-between items-center">
 												<h3 class=" text-brand-gray-500">Default Dev Cost</h3>
-												<p class="inline-block space-x-2">
+												<p class="space-x-2">
 													<span class="text-brand-gray-900">$175</span>
 													<span class="text-brand-gray-500">/</span>	
 													<span class="text-brand-gray-500">mo</span>
@@ -280,128 +381,29 @@
 													</div>
 											</div>
 											<a href="#" class="group inline-flex items-center py-2 px-3.5 border border-brand-gray-300 gap-2 rounded-lg">
-																						<span class="font-semibold text-sm text-brand-gray-700">Create</span>
-																						<svg class=" group-hover:translate-x-1.5 transition ease-linear " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-																										<path d="M3.3335 10H16.6668M16.6668 10L11.6668 5M16.6668 10L11.6668 15" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-																						</svg>
-																										
-																			</a>
+												<span class="font-semibold text-sm text-brand-gray-700">Create</span>
+												<svg class=" group-hover:translate-x-1.5 transition ease-linear " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M3.3335 10H16.6668M16.6668 10L11.6668 5M16.6668 10L11.6668 15" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+														
+											</a>
 										</div>
-														</div>
-								<!-- Item 2 -->
-														<div class="bg-white rounded-lg">
-									<div class="p-5 border-b border-brand-gray-200">
-										<div class="flex items-center justify-between pb-2.5">
-											<h3 class="font-semibold text-brand-gray-700">ML Kubeflow & default connection</h3>
-											<button>
-												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M9.99984 10.8333C10.4601 10.8333 10.8332 10.4602 10.8332 9.99998C10.8332 9.53974 10.4601 9.16665 9.99984 9.16665C9.5396 9.16665 9.1665 9.53974 9.1665 9.99998C9.1665 10.4602 9.5396 10.8333 9.99984 10.8333Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-													<path d="M9.99984 4.99998C10.4601 4.99998 10.8332 4.62688 10.8332 4.16665C10.8332 3.70641 10.4601 3.33331 9.99984 3.33331C9.5396 3.33331 9.1665 3.70641 9.1665 4.16665C9.1665 4.62688 9.5396 4.99998 9.99984 4.99998Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-													<path d="M9.99984 16.6666C10.4601 16.6666 10.8332 16.2935 10.8332 15.8333C10.8332 15.3731 10.4601 15 9.99984 15C9.5396 15 9.1665 15.3731 9.1665 15.8333C9.1665 16.2935 9.5396 16.6666 9.99984 16.6666Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-													</svg>
-													
-											</button>
 										</div>
-											<p class="text-brand-gray-500">
-												Setup Kubeflow preconfigured with access to default data resources (Redshift & Yellow S3 Datasets). 
-										</p>
-									</div>
-									<div class="p-5">
-										<div class="font-medium border-b border-brand-gray-200 pb-4 mb-4 space-y-3">
-											<div class="flex justify-between items-center">
-													<h3 class=" text-brand-gray-500">Maintainer </h3>
-													<p class="text-brand-gray-900">Platform Application Team</p>
+														
 											</div>
-											<div class="flex justify-between items-center">
-												<h3 class="text-brand-gray-500">Default Dev Cost</h3>
-												<p class="space-x-2">
-													<span class="text-brand-gray-900">$15</span>
-													<span class="text-brand-gray-500">/</span>	
-													<span class="text-brand-gray-500">mo</span>
-												</p>
-												</div>
-											<div class="flex justify-between items-center">
-											<h3 class="text-brand-gray-500">Default Dev Cost</h3>
-											<p class="space-x-2">
-												<span class="text-brand-gray-900">$175</span>
-												<span class="text-brand-gray-500">/</span>	
-												<span class="text-brand-gray-500">mo</span>
-											</p>
-												</div>
 										</div>
-										<a href="#" class="group inline-flex items-center py-2 px-3.5 border border-brand-gray-300 gap-2 rounded-lg">
-											<span class="font-semibold text-sm text-brand-gray-700">Create</span>
-											<svg class=" group-hover:translate-x-1.5 transition ease-linear " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M3.3335 10H16.6668M16.6668 10L11.6668 5M16.6668 10L11.6668 15" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-											</svg>
-													
-										</a>
-									</div>
-									</div>
-								<!-- Item 3 -->
-														<div class="bg-white rounded-lg">
-									<div class="p-5 border-b border-brand-gray-200">
-										<div class="flex items-center justify-between pb-2.5">
-											<h3 class="font-semibold text-brand-gray-700">Node.js service with Redis</h3>
-											<button>
-												<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M9.99984 10.8333C10.4601 10.8333 10.8332 10.4602 10.8332 9.99998C10.8332 9.53974 10.4601 9.16665 9.99984 9.16665C9.5396 9.16665 9.1665 9.53974 9.1665 9.99998C9.1665 10.4602 9.5396 10.8333 9.99984 10.8333Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-													<path d="M9.99984 4.99998C10.4601 4.99998 10.8332 4.62688 10.8332 4.16665C10.8332 3.70641 10.4601 3.33331 9.99984 3.33331C9.5396 3.33331 9.1665 3.70641 9.1665 4.16665C9.1665 4.62688 9.5396 4.99998 9.99984 4.99998Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-													<path d="M9.99984 16.6666C10.4601 16.6666 10.8332 16.2935 10.8332 15.8333C10.8332 15.3731 10.4601 15 9.99984 15C9.5396 15 9.1665 15.3731 9.1665 15.8333C9.1665 16.2935 9.5396 16.6666 9.99984 16.6666Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-													</svg>
-													
-											</button>
-										</div>
-											<p class="text-brand-gray-500">
-												Net.js service pipeline, ECS deployment, and Redis database, pre-configured with XYZ company best practices. 
-										</p>
-									</div>
-									<div class="p-5">
-										<div class="font-medium border-b border-brand-gray-200 pb-4 mb-4 space-y-3">
-											<div class="flex justify-between items-center">
-													<h3 class="text-brand-gray-500">Maintainer </h3>
-													<p class="text-brand-gray-900">3rd party integration team</p>
-											</div>
-											<div class="flex justify-between items-center">
-												<h3 class="text-brand-gray-500">Default Dev Cost</h3>
-												<p class="space-x-2">
-													<span class="text-brand-gray-900">$15</span>
-													<span class="text-brand-gray-500">/</span>	
-													<span class="text-brand-gray-500">mo</span>
-												</p>
-												</div>
-											<div class="flex justify-between items-center">
-											<h3 class=" text-brand-gray-500">Default Dev Cost</h3>
-											<p class="space-x-2">
-												<span class="text-brand-gray-900">$175</span>
-												<span class="text-brand-gray-500">/</span>	
-												<span class="text-brand-gray-500">mo</span>
-											</p>
-												</div>
-										</div>
-										<a href="#" class="group inline-flex items-center py-2 px-3.5 border border-brand-gray-300 gap-2 rounded-lg">
-											<span class="font-semibold text-sm text-brand-gray-700">Create</span>
-											<svg class=" group-hover:translate-x-1.5 transition ease-linear " width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M3.3335 10H16.6668M16.6668 10L11.6668 5M16.6668 10L11.6668 15" stroke="#344054" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-											</svg>
-													
-										</a>
-									</div>
-									</div>
-													
-										</div>
-						</div>
+						
 							</div>
 				</div>
-	<!-- Footer -->
-		<footer class="relative z-10 flex justify-between items-center text-xs text-brand-gray-500 py-6 px-8 lg:ml-80">
-			<p class="">2023 Atlas Cloud</p>
-			<div class="inline-block space-x-8">
-				<a href="#" class="underline decoration-transparent lg:hover:decoration-black transition ease-linear">About</a>
-				<a href="#" class="underline decoration-transparent lg:hover:decoration-black transition ease-linear">Team</a>
-				<a href="#" class="underline decoration-transparent lg:hover:decoration-black transition ease-linear">Contact</a>
-			</div>
-	  </footer> 
+			<!-- Footer -->
+				<footer class="relative z-10 flex justify-between items-center text-xs text-brand-gray-500 py-6 px-8 lg:ml-80">
+					<p class="">2023 Atlas Cloud</p>
+					<div class="inline-block space-x-8">
+						<a href="#" class="underline decoration-transparent lg:hover:decoration-black transition ease-linear">About</a>
+						<a href="#" class="underline decoration-transparent lg:hover:decoration-black transition ease-linear">Team</a>
+						<a href="#" class="underline decoration-transparent lg:hover:decoration-black transition ease-linear">Contact</a>
+					</div>
+					</footer> 
 
      <script src="./js/index.js"></script>
 </body>

@@ -1,2 +1,0 @@
-        <img class="absolute top-24 shadow-featureShadow object-cover z-10" src="./assets/image/white-box.png" alt="">
-                <img class="lg:relative z-0 -left-16 top-8 h-56 lg:h-[512px]" src="./assets/image/uuu.png" alt="">
